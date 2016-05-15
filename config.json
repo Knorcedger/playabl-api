@@ -1,0 +1,22 @@
+{
+	"version": "0.1.0",
+	"port": 2000,
+	"session": {
+		"timeout": 36000000
+	},
+	"email": "support@example.com",
+	"access": {
+		"verifyOrigin": false,
+		"apikeys": [{
+			"origin": "http://localhost:2000",
+			"key": "2Fx64jQ54asz8MD92MOVBOWS"
+		}]
+	},
+	"databases": {
+		"local": "mongodb://localhost/test",
+		"production": "mongodb://playabluser:playablpass!@ds011432.mlab.com:11432/heroku_pcfs82sx"
+	},
+	"users": {
+		"types": ["admin", "manager", "member"]
+	}
+}
